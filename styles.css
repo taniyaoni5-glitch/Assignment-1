@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: aqua; */
+}
+.container{
+    max-width: 1363px;
+    margin: auto;
+}
+.btn{
+    border-radius: 4px;
 }
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -13,8 +21,8 @@
     background-color: #FFFFFF;
 }
 nav{
-    width: 121%;
-    max-width: 1600px;
+    width: 100%;
+    max-width: 1200px;
     margin:  0 auto;
     display: flex;
 padding: 20px 40px;
@@ -43,20 +51,75 @@ header .btn{
 #banner{
     width: 1630px;
     height: 590px;
+    align-items: center;
     background-image: url("./B13-A01-Knowledge-Vault/assets/hero-bg.png");
+background-repeat: no-repeat;
 }
 .banner-content .up{
+    justify-content: center;
     margin:  162px 636px  ;
     background-color: #FFFFFF;
     border-radius: 1px;
     
 }
-.banner-content h1 , p , button{
+.banner-content h1  {
+    justify-content: center;
     text-align: center;
+    padding-top: 16px;
+
 }
 .banner-content .upp{
     text-align: center;
+    height: 168px;
+    width: 762px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.banner-content #center{
+    text-align: center;
+    justify-content: center;
 }
 .banner-content .upp .green{
     background-color: #30B868;
+    
+    align-items: center;
+    justify-content: center;
+
+
+}
+.upp .green , .none{
+
+    align-items: center;
+    justify-content: center;
+}
+#skills{
+    padding-top: 50px;
+}
+#skills .skills-card ,h1 , p{
+    max-width: 1380px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#skills .skills-box{
+    display: flex;
+    gap: 21px;
+}
+
+#skills .skills-box .skill-card .imgcolor{
+    color: #F95555;
+    background-color: #F95555;
+    background-image : url("./B13-A01-Knowledge-Vault/assets/Vector.png" );color: #F95555;
+    
+}
+.second-img {
+display: flex;
+
+}
+.second-img .right{
+text-align: center;
+justify-content: center;
+}
+.second-img li{
+    text-decoration: none;
 }
