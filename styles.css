@@ -40,3 +40,23 @@ header .btn{
     background-color:  #30B868;
 
 }
+#banner{
+    width: 1630px;
+    height: 590px;
+    background-image: url("./B13-A01-Knowledge-Vault/assets/hero-bg.png");
+}
+.banner-content .up{
+    margin:  162px 636px  ;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    
+}
+.banner-content h1 , p , button{
+    text-align: center;
+}
+.banner-content .upp{
+    text-align: center;
+}
+.banner-content .upp .green{
+    background-color: #30B868;
+}
